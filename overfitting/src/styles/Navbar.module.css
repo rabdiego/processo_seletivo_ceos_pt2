@@ -1,0 +1,16 @@
+.navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.navbar a {
+    margin: 1em;
+    transition: 0.2s;
+}
+
+.navbar a:hover {
+    color: aqua
+}
