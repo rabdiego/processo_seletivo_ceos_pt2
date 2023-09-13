@@ -1,7 +1,7 @@
 # Overfitting - Processo Seletivo CEOSjr
 Desafio em grupo, correspondente à segunda parte do processo seletivo da CEOS jr.
 
-![image](/overfitting/public/Logo.png)
+![image](/overfitting/public/Hero.png)
 
 ## Participantes
 | | | 
