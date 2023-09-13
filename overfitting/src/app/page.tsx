@@ -1,7 +1,9 @@
+import styles from '../styles/Maincontainer.module.css'
+
 export default function Home() {
   return (
     <>
-      <div>
+      <div  className={styles.container}>
         HERO / SOBRE NÓS / IMAGEM / FORMULARIO
       </div>
     </>

@@ -2,7 +2,7 @@ import styles from '../styles/Navbar.module.css'
 
 export default function Navbar() {
     return(
-    <>    
+    <div>
         <ul className={styles.navbar}>
             <li>
                 <a>Sobre Nós</a>
@@ -14,6 +14,6 @@ export default function Navbar() {
                 <a>Fale Conosco</a>
             </li>
         </ul>
-    </>
+    </div>
     )
 }

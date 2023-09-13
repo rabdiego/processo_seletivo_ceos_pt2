@@ -18,11 +18,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="shortcut icon" href="" sizes='any'/>
+        <link rel="shortcut icon" href="/favicon.ico" sizes='any'/>
       </head>
-      <Navbar/>
-      <body className={styles.container}>{children}</body>
-      <Footer/>
+      <body>
+        <Navbar/>
+        {children}
+        <Footer/>
+      </body>
     </html>
   )
 }
