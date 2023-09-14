@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import Hero from '@/components/Hero'
 
 import styles from '../styles/Maincontainer.module.css'
 
@@ -22,6 +23,7 @@ export default function RootLayout({
       </head>
       <body>
         <Navbar/>
+        <Hero/>
         {children}
         <Footer/>
       </body>
