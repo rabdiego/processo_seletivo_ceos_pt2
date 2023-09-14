@@ -1,7 +1,34 @@
 .footer {
-    height: 100px;
+    width: 100%;
+    padding: 30px 40px 50px;
+    
+    background-color: #242424;
+    color: #8e8e8e;
+}
 
+.footer li {
+    list-style-type: none;
+    margin: 10px;
+}
+
+.logo {
     display: flex;
-    align-items: center;
     justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+}
+
+.addInfo {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
 }

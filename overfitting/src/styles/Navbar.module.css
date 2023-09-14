@@ -1,16 +1,27 @@
 .navbar {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 1em 1.2em;
+    margin-bottom: 2em;
+
+    background-color: #4a4a4a;
+    box-shadow: 0 2px 8px #4a4a4a ;
+}
+
+.navbar ul{
     list-style-type: none;
     display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navbar a {
     margin: 1em;
     transition: 0.2s;
+    color: white;
 }
 
 .navbar a:hover {
-    color: aqua
+    color: #EE4C2C
 }

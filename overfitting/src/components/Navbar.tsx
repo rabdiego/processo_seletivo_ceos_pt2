@@ -1,9 +1,14 @@
 import styles from '../styles/Navbar.module.css'
+import Image from 'next/image'
+
 
 export default function Navbar() {
     return(
-    <div>
-        <ul className={styles.navbar}>
+    <nav  className={styles.navbar}>
+        <div>
+            <p>Overfitting Logo</p>
+        </div>
+        <ul>
             <li>
                 <a>Sobre Nós</a>
             </li>
@@ -14,6 +19,6 @@ export default function Navbar() {
                 <a>Fale Conosco</a>
             </li>
         </ul>
-    </div>
+    </nav>
     )
 }
