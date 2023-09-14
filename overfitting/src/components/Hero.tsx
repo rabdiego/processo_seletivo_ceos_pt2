@@ -1,19 +1,16 @@
 import Image from 'next/image'
+import styles from '../styles/Hero.module.css'
 
 export default function Hero() {
     return (
-        <div
-        style={{
-            display : 'flex',
-            justifyContent : 'center'
-        }}>
+        <div className={styles.hero}>
             <Image
             src='/Hero.png'
             alt='Hero'
             width={0}
             height={0}
             sizes='100vw'
-            style={{width : '85%', height : 'auto', borderRadius : '60px'}}
+            className={styles.heroImg}
             />
         </div>
     )

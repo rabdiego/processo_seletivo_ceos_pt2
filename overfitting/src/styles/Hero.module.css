@@ -1,0 +1,10 @@
+.hero {
+    display : flex;
+    justify-content : center;
+}
+
+.heroImg {
+    width : 100%; 
+    height : auto;
+    border-radius : 60px;
+}
