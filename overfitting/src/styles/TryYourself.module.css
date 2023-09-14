@@ -1,0 +1,21 @@
+.centralizedDiv {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.gridContainer {
+    width : 80%;
+    height : 100%;
+
+    display : grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 200px;
+}
+
+.leftColumn {
+}
+
+.rightColumn {
+}
