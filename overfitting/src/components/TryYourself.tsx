@@ -1,6 +1,6 @@
 'use client'
 
-import Image from 'next/image'
+
 import styles from '../styles/TryYourself.module.css'
 
 import React, { useState } from 'react'
@@ -50,17 +50,6 @@ export default function TryYourself() {
                             value='Upload'
                             />
                         </form>
-                        
-                        <div className={styles.hero}>
-                            <Image
-                            src='/tmp/tmpImg.png'
-                            alt='Hero'
-                            width={0}
-                            height={0}
-                            sizes='100vw'
-                            className={styles.heroImg}
-                            />
-                        </div>
                     </div>
                 </div>
 
