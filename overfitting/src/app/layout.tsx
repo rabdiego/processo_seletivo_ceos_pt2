@@ -2,8 +2,7 @@ import type { Metadata } from 'next'
 
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
-
-import styles from '../styles/Maincontainer.module.css'
+import '../styles/globals.css'
 
 export const metadata: Metadata = {
   title: 'OverFitting',
@@ -20,7 +19,7 @@ export default function RootLayout({
       <head>
         <link rel="shortcut icon" href="/favicon.ico" sizes='any'/>
       </head>
-      <body>
+      <body className='body'>
         <Navbar/>
         {children}
         <Footer/>

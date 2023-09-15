@@ -1,0 +1,51 @@
+.aboutus {
+    display: flex;
+    flex-direction: column;
+
+    margin: 50px 30px 50px 30px;
+}
+
+.cardcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    padding: 20px;
+    height: 100%;
+    width: 200px;
+}
+
+.cardcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutus h2 {
+    
+    color: #EE4C2C;
+}
+
+.aboutus h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.aboutus h4 {
+    color: #8e8e8e;
+}
+
+.image {
+    border-radius: 60px;
+}
