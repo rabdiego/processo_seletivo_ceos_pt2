@@ -1,9 +1,12 @@
 import styles from '../styles/Footer.module.css'
+import Image from 'next/image'
 
 export default function Footer() {
     return (
         <footer className={styles.footer}>
-            <section className={styles.logo}>logo</section>
+            <section className={styles.logo}>
+                <Image src='/biglogo.png' alt='biglogo' width={500} height={250}/>
+            </section>
             <section>
                 <div className={styles.addInfo}>
                     <div>

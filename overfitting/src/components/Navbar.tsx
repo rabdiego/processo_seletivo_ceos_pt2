@@ -5,8 +5,9 @@ import Image from 'next/image'
 export default function Navbar() {
     return(
     <nav  className={styles.navbar}>
-        <div>
-            <p>Overfitting Logo</p>
+        <div className={styles.logo}>
+            <Image src='/logo.png' alt='logo' width={30} height={35}/>
+            <p>verFitting</p>
         </div>
         <ul>
             <li>
@@ -16,7 +17,7 @@ export default function Navbar() {
                 <a>Teste Você Mesmo</a>
             </li>
             <li>
-                <a>Fale Conosco</a>
+                <a href='#contate-nos'>Fale Conosco</a>
             </li>
         </ul>
     </nav>
