@@ -31,7 +31,7 @@ export default function TryYourself() {
         <div className={styles.centralizedDiv}>
             <div className={styles.gridContainer}>
                 <div className={styles.leftColumn}>
-                    <div className={styles.centralizedDiv}>
+                    <div id='teste-self' className={styles.centralizedDiv}>
                         <h1>Quer testar você mesmo?</h1>
                     </div>
                 </div>

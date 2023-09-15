@@ -6,7 +6,7 @@ export default function Navbar() {
     return(
     <nav  className={styles.navbar}>
         <div className={styles.logo}>
-            <Image src='/logo.png' alt='logo' width={30} height={35}/>
+            <Image src='/smllogo.png' alt='logo' width={30} height={35}/>
             <p>verFitting</p>
         </div>
         <ul>
@@ -14,7 +14,7 @@ export default function Navbar() {
                 <a href='#sobre-nos'>Sobre Nós</a>
             </li>
             <li>
-                <a>Teste Você Mesmo</a>
+                <a href='#teste-self'>Teste Você Mesmo</a>
             </li>
             <li>
                 <a href='#contate-nos'>Fale Conosco</a>

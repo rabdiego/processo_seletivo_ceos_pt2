@@ -26,6 +26,7 @@
     margin: 1em;
     transition: 0.2s;
     color: white;
+    text-decoration: none;
 }
 
 .navbar a:hover {

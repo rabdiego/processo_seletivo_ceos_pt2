@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <footer className={styles.footer}>
             <section className={styles.logo}>
-                <Image src='/biglogo.png' alt='biglogo' width={500} height={250}/>
+                <Image src='/biglogo.png' alt='biglogo' width={1145} height={773} className={styles.footerlogo}/>
             </section>
             <section>
                 <div className={styles.addInfo}>
