@@ -1,19 +1,25 @@
 import styles from '../styles/Navbar.module.css'
+import Image from 'next/image'
+
 
 export default function Navbar() {
     return(
-    <div>
-        <ul className={styles.navbar}>
+    <nav  className={styles.navbar}>
+        <div className={styles.logo}>
+            <Image src='/logo.png' alt='logo' width={30} height={35}/>
+            <p>verFitting</p>
+        </div>
+        <ul>
             <li>
-                <a>Sobre Nós</a>
+                <a href='#sobre-nos'>Sobre Nós</a>
             </li>
             <li>
                 <a>Teste Você Mesmo</a>
             </li>
             <li>
-                <a>Fale Conosco</a>
+                <a href='#contate-nos'>Fale Conosco</a>
             </li>
         </ul>
-    </div>
+    </nav>
     )
 }
