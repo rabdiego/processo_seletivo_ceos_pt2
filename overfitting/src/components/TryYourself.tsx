@@ -43,11 +43,13 @@ export default function TryYourself() {
                             type='file'
                             name='file'
                             onChange={(e) => setFile(e.target.files?.[0])}                            
+                            className={styles.selectImage}
                             />
 
                             <input
                             type='submit'
                             value='Upload'
+                            className={styles.upload}
                             />
                         </form>
                     </div>
