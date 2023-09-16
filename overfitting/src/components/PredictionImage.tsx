@@ -18,7 +18,7 @@ export default function PredictionImage() {
     })
 
     return(
-        <div className={styles.hero}>
+        <div className={styles.imageContainer}>
             <Image
             src={imgPath}
             id = 'img'
@@ -26,7 +26,7 @@ export default function PredictionImage() {
             width={0}
             height={0}
             sizes='100vw'
-            className={styles.heroImg}
+            className={styles.image}
             />
         </div>
     )

@@ -6,18 +6,18 @@ export default function Navbar() {
     return(
     <nav  className={styles.navbar}>
         <div className={styles.logo}>
-            <Image src='/smllogo.png' alt='logo' width={30} height={35}/>
+            <Image src='/smllogo.png' alt='logo' width={60} height={70}/>
             <p>verFitting</p>
         </div>
         <ul>
             <li>
-                <a href='#sobre-nos'>Sobre Nós</a>
+                <div className={styles.button}><a href='#sobre-nos'>Sobre Nós</a></div>
             </li>
             <li>
-                <a href='#teste-self'>Teste Você Mesmo</a>
+                <div className={styles.button}><a href='#teste-self'>Teste Você Mesmo</a></div>
             </li>
             <li>
-                <a href='#contate-nos'>Fale Conosco</a>
+                <div className={styles.button}><a href='#contate-nos'>Fale Conosco</a></div>
             </li>
         </ul>
     </nav>

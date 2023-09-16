@@ -41,14 +41,14 @@
     color: white;
 }
 
-.hero {
+.imageContainer {
     display : flex;
     justify-content : center;
     background-color: #F08873;
 }
 
-.heroImg {
-    width : 50%; 
+.image {
+    width : 40%; 
     height : auto;
     margin-bottom: 6%;
 }
