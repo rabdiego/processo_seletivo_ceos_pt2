@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <footer className={styles.footer}>
             <section className={styles.logo}>
-                <Image src='/biglogo.png' alt='biglogo' width={1145} height={773} className={styles.footerlogo}/>
+                <Image src='/biglogo.png' alt='biglogo' width={0} height={0} sizes='100vw' className={styles.footerlogo}/>
             </section>
             <section>
                 <div className={styles.addInfo}>
@@ -23,7 +23,7 @@ export default function Footer() {
                 
                     <div>
                         <h3>Endereço</h3>
-                        <li>Rua Tchurusbango Tchurusbago, 1234, Beurveuli Reels</li>
+                        <li>Rua Platina, sala 903, cidade de Jubilife, Sinnoh</li>
                     </div>
                 </div>
             </section>

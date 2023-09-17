@@ -7,7 +7,10 @@ export default function Form() {
         <section id="contate-nos">
             <div className={styles.contactus}>
                 <h2>Contate-nos!</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempore at iste repellendus, voluptatem earum dignissimos animi exercitationem. Aperiam, culpa voluptate? Sapiente, ad error quisquam amet ex nemo minus modi.</p>
+                <p>
+                    Tem alguma dúvida, sugestão ou reclamação? Sinta-se bem vindo
+                    para nos contactar via email, ou telefone!
+                </p>
                 <div>
                     <form method="POST" className={styles.form}>
                         <ul className={styles.formcontent}>
@@ -25,7 +28,7 @@ export default function Form() {
                             </li>
                             <button type="submit" className={styles.submit}>Enviar</button>
                         </ul>
-                        <Image src='/contactus.jpg' alt="calling" width={1000} height={500} className={styles.formimg} />
+                        <Image src='/contactus.jpg' alt="calling" width={0} height={0} sizes='100vw' className={styles.formimg} />
                     </form>
                 </div>
             </div>

@@ -33,12 +33,12 @@
 
 .aboutus h2 {
     color: #EE4C2C;
+    font-size: 250%;
 }
 
 .aboutus h3 {
     margin-top: 10px;
-    margin-bottom: 20px;
-
+    margin-bottom: 10%;
 }
 
 .aboutus h4 {
@@ -46,5 +46,13 @@
 }
 
 .image {
-    border-radius: 60px;
+    width: 90%;
+    height: auto;
+    border-radius: 100px;
+}
+
+.human {
+    color : #00A161;
+    font-style: italic;
+    font-weight: bold;
 }

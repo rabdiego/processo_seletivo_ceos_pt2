@@ -4,10 +4,13 @@
     align-items: center;
     height: 200px;
     background-color: #F08873;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .centralizedDiv h1 {
     color: white;
+    font-size: 250%;
 }
 
 .gridContainer {
@@ -26,14 +29,14 @@
     border: #EE4C2C 1px solid;
     transition-duration: 0.2s;
     cursor: pointer;
-    padding: 3%;
+    padding: 5%;
     margin-bottom: 1%;
     color: white;
 }
 
 .upload {
     background-color: #00A161;
-    padding: 4% 4%;
+    padding: 4% 10%;
     border-radius: 20px;
     border: #00A161 1px solid;
     transition-duration: 0.2s;
@@ -45,6 +48,8 @@
     display : flex;
     justify-content : center;
     background-color: #F08873;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .image {

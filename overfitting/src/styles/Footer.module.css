@@ -4,6 +4,8 @@
     
     background-color: #242424;
     color: #8e8e8e;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 .footer li {
@@ -20,8 +22,8 @@
 }
 
 .footerlogo {
-    width: 25%;
-    height: 25%;
+    width: 15%;
+    height: auto;
 }
 
 .addInfo {
