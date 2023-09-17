@@ -1,7 +1,7 @@
 # Overfitting - Processo Seletivo CEOSjr
 Desafio em grupo, correspondente à segunda parte do processo seletivo da CEOS jr.
 
-![image](/overfitting/public/Hero.png)
+![image](/overfitting/public/newHero.png)
 
 ## Participantes
 | | | 
@@ -18,3 +18,6 @@ Desafio em grupo, correspondente à segunda parte do processo seletivo da CEOS j
 | Ciano Escuro | `#00A161` |
 | Amarelo | `#EDDC42` |
 | Azul | `#4C1FED` |
+
+## Como usar a função de "tente você mesmo"
+Tendo o Python instalado, rode `pip install -r requierements.txt` dentro de `/overfitting/`, para instalar as bibliotecas necessárias.
