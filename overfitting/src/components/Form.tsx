@@ -26,7 +26,7 @@ export default function Form() {
                                 <h4>E-mail</h4>
                                 <input type="email" name="email" placeholder="seuemail@email.com" required />
                             </li>
-                            <button type="submit" className={styles.submit}>Enviar</button>
+                            <button type="submit" className={styles.bttnsubmit}><span>Enviar! </span></button>
                         </ul>
                         <Image src='/contactus.jpg' alt="calling" width={0} height={0} sizes='100vw' className={styles.formimg} />
                     </form>
