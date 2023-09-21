@@ -1,0 +1,59 @@
+.centralizedDiv {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #F08873;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.centralizedDiv h1 {
+    color: white;
+    font-size: 250%;
+}
+
+.gridContainer {
+    width : 80%;
+    height : 100%;
+
+    display : grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 200px;
+}
+
+.selectImage {
+    background-color: #EE4C2C;
+    padding: 1% 1%;
+    border-radius: 20px;
+    border: #EE4C2C 1px solid;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    padding: 5%;
+    margin-bottom: 1%;
+    color: white;
+}
+
+.upload {
+    background-color: #00A161;
+    padding: 4% 10%;
+    border-radius: 20px;
+    border: #00A161 1px solid;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    color: white;
+}
+
+.imageContainer {
+    display : flex;
+    justify-content : center;
+    background-color: #F08873;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.image {
+    width : 40%; 
+    height : auto;
+    margin-bottom: 6%;
+}
