@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 1em 1.2em;
+    margin-bottom: 2em;
+
+    background-color: white;
+    box-shadow: 0 2px 8px #A2A2A2 ;
+}
+
+.logo a {
+    display: flex;
+    font-size: 300%;
+    text-decoration: none;
+    color: #EE4C2C;
+    cursor: pointer;
+
+}
+
+.logo p {
+    margin-top: 4%;
+    margin-left: 1%;
+    font-weight: bold;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.button {
+    border-radius: 10px;
+}
+
+.button a {
+    display: flex;
+    text-decoration: none;
+    color: #EE4C2C;
+    font-size: 120%;
+    margin-right: 1em;
+    margin-left: 1em;
+    font-weight: bold;
+}
+
+.button a:hover {
+    color: #00A161
+}

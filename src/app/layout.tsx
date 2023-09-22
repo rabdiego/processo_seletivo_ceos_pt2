@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 
-import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import '../styles/globals.css'
 
@@ -20,7 +19,6 @@ export default function RootLayout({
         <link rel='icon' href='/image/favicon.ico'/>
       </head>
       <body className='body'>
-        <Navbar/>
         {children}
         <Footer/>
       </body>

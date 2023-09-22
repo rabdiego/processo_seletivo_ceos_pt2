@@ -7,7 +7,7 @@ import Image from 'next/image'
 export default function Navbar() {
 
     function refreshPage() {
-        window.location.reload();
+        window.history.go(0);
     }
 
     const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
@@ -30,13 +30,13 @@ export default function Navbar() {
         
         <ul>
             <li>
-                <div className={styles.button}><a href='#sobre-nos' onClick={handleScroll}>Sobre Nós</a></div>
+                <div className={styles.button}><a href="/#sobre-nos" onClick={handleScroll}>Sobre Nós</a></div>
             </li>
             <li>
-                <div className={styles.button}><a href='#teste-self' onClick={handleScroll}>Teste Você Mesmo</a></div>
+                <div className={styles.button}><a href="/#teste-self" onClick={handleScroll}>Teste Você Mesmo</a></div>
             </li>
             <li>
-                <div className={styles.button}><a href='#contate-nos' onClick={handleScroll}>Fale Conosco</a></div>
+                <div className={styles.button}><a href="#contate-nos" onClick={handleScroll}>Fale Conosco</a></div>
             </li>
         </ul>
     </nav>
