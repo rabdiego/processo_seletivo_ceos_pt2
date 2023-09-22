@@ -5,7 +5,7 @@ export default function Hero() {
     return (
         <div className={styles.hero}>
             <Image
-            src='/newHero.png'
+            src='/hero4.png'
             alt='Hero'
             width={0}
             height={0}
