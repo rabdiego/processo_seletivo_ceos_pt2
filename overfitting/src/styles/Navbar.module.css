@@ -13,6 +13,7 @@
     display: flex;
     font-size: 300%;
     color: #EE4C2C;
+    cursor: pointer;
 }
 
 .logo p {

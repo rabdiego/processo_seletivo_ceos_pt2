@@ -18,11 +18,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    transition: 1.5s ease-out;
 
     padding: 20px;
     height: 100%;
     width: 200px;
+}
+
+.card:hover {
+    background-color: #f2f8de;
+    border-radius: 20px;
+    scale: 1.07;
 }
 
 .cardcontent {
